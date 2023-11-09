@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+header{
+    background-color: #003245;
+    height: 70px;
+    width: 100%;
+}
+
+header ul li {
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagenprincipal{
+    width: 100%;
+}
+
+.imagenes{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#banner{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+}
+
+#titular {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo{
+    font-size: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subtitulo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textos {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.importante {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#primeraLetra::first-letter {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 100px;
+    float: left;
+}
