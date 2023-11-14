@@ -1,0 +1,13 @@
+img {
+    width: 498px;
+    height: 498px;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: invert(0%);
+}
+
+img {
+    filter: invert(100%);
+}
