@@ -6,6 +6,8 @@ header{
     background-color: #003245;
     height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0px;
 }
 
 header ul li {
@@ -78,4 +80,10 @@ header ul li {
     font-weight: bold;
     line-height: 100px;
     float: left;
+}
+
+#TE:hover{
+    position: relative;
+    left: 5px;
+    top: 5px;
 }
