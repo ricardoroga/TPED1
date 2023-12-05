@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+
+#estructura{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+div{
+    width: 33%;
+    border-style: dotted;
+}
+
+
+#p1{
+    font-family: 'Roboto', sans-serif;
+}
+
+#p2{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+#p3{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#p4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#p5{
+    font-family: 'Dhurjati', sans-serif;
+}
+
+#p6{
+    font-family: 'Antic Slab', serif;
+}
+
+#p7{
+    font-family: 'Kiwi Maru', serif;
+}
+
+#p8{
+    font-family: 'Ephesis';
+}
+
+#p9{
+    font-family: 'Tajawal', sans-serif;
+}

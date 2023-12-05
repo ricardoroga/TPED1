@@ -12,12 +12,20 @@ body{
 main{
     height: 70vh;
     width: 100%;
-    background-color: aqua;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image:;
 }
 
 header{
     width: 100%;
     height: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: coral;
 }
 
@@ -28,13 +36,23 @@ footer{
 }
 
 .A{
-    width: 45%;
+    width: 50%;
     background-color: blueviolet;
 }
 
 .B{
-    width: 45%;
+    width: 50%;
     background-color:blue;
+}
+
+.C{
+    width: 50%;
+    background-color: bisque;
+}
+
+.D{
+    width: 50%;
+    background-color: aquamarine;
 }
 
 #imagen{
