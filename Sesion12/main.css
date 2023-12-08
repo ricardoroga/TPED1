@@ -1,0 +1,43 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 27px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+div{
+    position: relative;
+}
+
+img {
+    filter: saturate(0);
+    width: 490px;
+    height: 490px;
+}
+
+a:hover img {
+    filter: invert(0%);
+}
+
+img {
+    filter: invert(100%);
+}
