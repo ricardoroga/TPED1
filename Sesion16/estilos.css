@@ -1,62 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:brown;
+body {
+    background-color: #222222;
+
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-main{
+main {
+    background-image: url(imagenes/fondo-1400x860.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#nav {
+    width: 33vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 2em;
+    color: lightgray;
+}
+
+section {
     height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    background-image:;
+    width: 35vw;
 }
 
-header{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: coral;
+#A {
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-footer{
-    height: 30vh;
-    width: 100%;
-    background-color: azure;
+h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
-.A{
-    width: 50%;
-    background-color: blueviolet;
+p {
+    margin-bottom: 1em;
+    font-size: 12px;
 }
 
-.B{
-    width: 50%;
-    background-color:blue;
+a {
+    text-decoration: none;
 }
 
-.C{
-    width: 50%;
-    background-color: bisque;
+button {
+    background-color: cyan;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    border-style: none;
+
+}
+#B {
+    padding-left: 10vw;
+    margin-right: 10vw;
+    position: relative;
 }
 
-.D{
-    width: 50%;
-    background-color: aquamarine;
-}
-
-#imagen{
-    width: 100%;
+#C {
     position: absolute;
-    float: none;
+    bottom: 0;
+}
+
+#Adobe {
+    width: 40px;
+}
+
+#B img {
+    height: 1.5em;
+    width: auto;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+    font-size: 16px;
+}
+
+#footer {
+    background-color: #111111;
+    color: white;
+    padding: 1em;
+    padding-left: 5em;
+}
+
+#footer span {
+    color: rgb(207, 207, 63);
 }
