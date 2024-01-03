@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#A {
+    height: 300px;
+    background-color: rgb(0, 255, 170);
+}
+
+#B{
+    height: 300px;
+    background-color: aqua;
+}
+
+#C{
+    height: 300px;
+    background-color: rgb(13, 54, 54);
+}
+
+#D{
+    height: 300px;
+    background-color: rgb(180, 199, 33);
+}

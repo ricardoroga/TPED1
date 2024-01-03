@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#A {
+    background-color: rgb(0, 255, 170);
+}
+
+#izq{
+    height: 70vh;
+    background-color: aqua;
+}
+
+#der{
+    height: 70vh;
+    background-color: rgb(13, 54, 54);
+}
+
+#titulo{
+    background-color: chartreuse;
+}
